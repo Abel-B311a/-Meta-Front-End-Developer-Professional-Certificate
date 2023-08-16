@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Heading(){
-  return
-}
+import Heading from './components/Heading';
 
 function App() {
-  return <h1>This is an h1</h1>
+  return (
+    <div classNmae="App">
+      <Heading/>
+    </div>
+  )
 }
 
 export default App;
