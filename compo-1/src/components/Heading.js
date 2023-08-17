@@ -1,5 +1,5 @@
 function Heading(props){
-    return (<h1>{props.name}'s chisness level is {props.chisness}</h1>)
+    return (<h1>{props.children} is yelele chis!</h1>)
   }
 
   export default Heading
